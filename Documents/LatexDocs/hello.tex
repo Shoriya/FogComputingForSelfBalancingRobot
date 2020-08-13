@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{graphicx}
+\graphicspath{ {/home/chauhan/Pictures} }
+
+\begin{document}
+	\begin{center}
+		\thispagestyle{empty}
+		\parskip=14pt%
+		\vspace*{3\parskip}%
+		
+		\large Real Time System Department
+				\\
+		Fog Computing of Self Balancing Robot
+				
+		
+		
+		By
+		
+		(Shoriya Chauhan)
+		
+		
+		
+		Under the supervision of
+		\\
+		MSc. Alexandre Venito
+		\\
+		Prof. Gerhard Fohler
+		\\
+		\rule{7cm}{0.4pt}\\
+		
+				
+		
+		
+		
+		(8th May 2020)
+	\end{center}
+	\newpage
+	
+
+
+ 	\section{Motivation}
+ 	Improvment for the next generation industry is the key idea to implement this project.The traditional robots have dedicated controller and resources to meet the rela tme constraints.The main idea here is to be able to do complex funcitonality on fog node meeting the real time contraints, which can not be done via dedicated controller and resourses.Fog computing may provide local data processing along with real time communicatioon mechanism.
+ 	
+ 	\section{Project Flow}
+	Here we are implemneting a self balancing robot running on esp32 and the main PID control loop to be implemented on the fog node while meeting the requirement of the robot to be balanced. 
+	\\
+	Flow of the project:
+	\begin{itemize}
+	\item To understand the communication protocol of the lego sensors
+	\item Implement communication of lego sensors with Arduino
+	\item Integrate the sensors togther to build self balaning bot
+	\item Change from Arduino to esp32 for the wireless communication
+	\item Structure the robot
+	\item Get exact value of the PID
+	\item Shift the PID function on node. 
+	 \end{itemize}	
+	 
+	\section{Literature Survey}
+	Consider broomstick on the index finger, when trying to balance it we will have to move the finger in direction of the falling broomstick. Similarly the robot would fall either forward or backward which can be controlled by moving the robot either backward or forward.
+	To make a balancing robot we need to control the center of gravity of the robot just at the pivot point. 
+	\subsection{Requirement for balancing the robot}	
+	\begin{itemize}
+		\item Direction the robot is falling 
+		\item Robot tilts
+	\end{itemize}	
+	These information can be dedSelfBalancing Robotuced from the accelero-meter and gyroscope in a complimentary filter.
+	
+	\subsubsection{hello}
+	hello
+	
+	\subsubsection{crazy}
+	ccrayzzz
+	 
+\end{document}
+

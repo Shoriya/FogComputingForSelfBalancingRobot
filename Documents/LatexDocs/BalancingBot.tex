@@ -1,6 +1,35 @@
+
+
+
 \documentclass{article}
 \usepackage{graphicx}
-\graphicspath{ {/home/chauhan/Pictures} }
+\graphicspath{ {/home/tk_conda/Documents/Shoriya/HIWI/RTS_documents/texdoc} }
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,positioning,shadows,shapes}
 
 \begin{document}
 	\begin{center}
@@ -39,7 +68,7 @@
 
 
  	\section{Motivation}
- 	Improvment for the next generation industry is the key idea to implement this project.The traditional robots have dedicated controller and resources to meet the rela tme constraints.The main idea here is to be able to do complex funcitonality on fog node meeting the real time contraints, which can not be done via dedicated controller and resourses.Fog computing may provide local data processing along with real time communicatioon mechanism.
+ 	Improvment for the next generation industry is the key idea to implement this project.The traditional robots have dedicated controller and resources to meet the real tme constraints.The main idea here is to be able to do complex funcitonality on fog node meeting the real time contraints, which can not be done via dedicated controller and resourses.Fog computing may provide local data processing along with real time communicatioon mechanism.
  	
  	\section{Project Flow}
 	Here we are implemneting a self balancing robot running on esp32 and the main PID control loop to be implemented on the fog node while meeting the requirement of the robot to be balanced. 
@@ -52,7 +81,7 @@
 	\item Change from Arduino to esp32 for the wireless communication
 	\item Structure the robot
 	\item Get exact value of the PID
-	\item Shift the PID function on node. 
+	\item Shift the PID function on fog node. 
 	 \end{itemize}	
 	 
 	\section{Literature Survey}
@@ -67,9 +96,9 @@
 	
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=100mm,scale=0.5]{balance}
+		\includegraphics[width=100mm,scale=0.5]{balance.png}
 		\caption{Tilt Angle and Balance}
-		\label{Fig.1: Tilt Angle and Balance}
+		\label{Tilt Angle and Balance}
 	\end{figure}
 
 \pagebreak
@@ -108,7 +137,7 @@
  		\centering
  		\includegraphics[width=50mm,scale=0.5]{legomotor}
  		\caption{LEGO MOTOR}
- 		\label{Fig.2: LEGO MOTOR}
+ 		\label{ LEGO MOTOR}
  	\end{figure} 
   
  
@@ -127,7 +156,7 @@
  		\centering
  		\includegraphics[width=50mm,scale=0.5]{mpu6050}
  		\caption{MPU6050}
- 		\label{Fig.3: MPU6050}
+ 		\label{ MPU6050}
  	\end{figure}
  	
  	 	
@@ -140,7 +169,7 @@
  		\centering
  		\includegraphics[width=50mm,scale=0.5]{ultrasonic}
  		\caption{Ultrasonic Sensor}
- 		\label{Fig.4: Ultrasonic Sensor}
+ 		\label{ Ultrasonic Sensor}
  	\end{figure}
  
  	\subsection{L298N}
@@ -150,7 +179,7 @@
  		\centering
  		\includegraphics[width=50mm,scale=0.5]{L298N}
  		\caption{L298N H-Bridge}
- 		\label{Fig.5:L298N H-Bridge}
+ 		\label{L298N H-Bridge}
  	\end{figure}
  
  	\pagebreak
@@ -173,7 +202,7 @@ Those problems can be resolved be the combination of both sensors, that's called
  		\centering
  		\includegraphics[width=100mm,scale=0.5]{complimentaryfilter}
  		\caption{Complimentary Filter}
- 		\label{Fig.5: Complimentary Filter}
+ 		\label{Complimentary Filter}
  	\end{figure}
  	
  	The measurement from accelerometer gets affected by sudden horizontal movements and the measurement from gyroscope gradually drifts away from actual value. In other words, the accelerometer reading gets affected by short duration signals and the gyroscope reading by long duration signals. These readings are, in a way, complementary to each other. Combine them both using a Complementary Filter and we get a stable, accurate measurement of the angle. The complementary filter is essentially a high pass filter acting on the gyroscope and a low pass filter acting on the accelerometer to filter out the drift and noise from the measurement.
@@ -191,7 +220,7 @@ Those problems can be resolved be the combination of both sensors, that's called
  		\centering
  		\includegraphics[width=100mm,scale=0.5]{PIDcontrol}
  		\caption{PID Controller}
- 		\label{Fig.6: PID Controller}
+ 		\label{ PID Controller}
  	\end{figure}
  	
  	The proportional term (gain) makes a change to the output that is proportional to the current error value. Larger values typically mean faster response since the larger the error, the larger the Proportional term correction signal. However, an excessively large proportional gain will lead to instability and oscillation.
@@ -229,7 +258,7 @@ Those problems can be resolved be the combination of both sensors, that's called
  			\centering
  			\includegraphics[width=100mm,scale=0.5]{PinConnection}
  			\caption{Motor Connector}
- 			\label{Fig.6: Pin Specification for L298N H-Bridge }
+ 			\label{Pin Specification for L298N H-Bridge }
  		\end{figure}
  	
  		VCC	-- Battery 9V\\
@@ -256,16 +285,81 @@ Those problems can be resolved be the combination of both sensors, that's called
  			\centering
  			\includegraphics[width=100mm,scale=0.5]{Structure}
  			\caption{Structure}
- 			\label{Fig.6: Structure }
+ 			\label{Structure }
  		\end{figure}
  		
  	The struture is able to balance it self with the defined values of PID when the PId is implemented on the controller.
   
-    
   \section{Fog Node}
   Here we using Python socket as our server node (fog node) to implement PID module. The esp32 functions to supply the current angle and the server replies back with the change in motor to be stable. 
-  (Yet to implement)
+  With fog computing technology, all the processing happens on devices physically closer to where the data is collected, instead of sending data to the cloud.
   
+  \subsection{Exeution time}
+  
+     The first the foremost step was to find the maximum delay that the robot can withstand to still be balanced.This is done by using the millis() or micros() function in Arduino to find the approximate execution time of the program in loop. 
+     We find that it takes around 1ms for the code to run and the robot to still be balanced. To this we added a delay funtion to find the minimum number of gyroscope value required in a time frame for it to be balanced.
+     A delay of 20ms was fair enough for the bot to still be balanced with Kp value to be 280. 
+     \begin{lstlisting}
+		void loop() {
+  			startTime =millis();
+				//Code for Angle Calculations
+				//Code for PID Funtion  
+  			delay(20);
+  			Serial.println(millis()-startTime);
+  
+		}
+		\end{lstlisting}
+       
+	And after shifting the PID code to the python server the total execution time on ESP32 was re-calculated. It takes around 2050 ms to get the motor speed and the turning direction. 
+
+  	\tikzstyle{line} = [draw, -latex']
+
+\tikzset{label/.style={draw=gray, ultra thin, rounded corners=.25ex, fill=gray!20,text width=4cm, text badly centered,  inner sep=2ex, anchor=east, minimum height=4em}}
+
+\begin{figure}[!htb]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[node distance=5cm,auto,>=latex']
+% Place nodes
+\node [label] (init) {Angle Calculations from MPU6050};
+\node [label, right of=init] (node) {Convert Angle to String};
+\node [label, right of=node] (node1) {Send Angle to Server};
+\node [label, right of=node1] (node2) {Convert String to Float};
+\node [label, right of=node2] (node3) {PID Calculation};
+\node [label, right of=node3] (node4) {Send Motor speed Value to ESP32};
+
+% Draw edges
+\path [line] (init) -- (node);
+\path [line] (node) -- (node1);
+\path [line] (node1) -- (node2);
+\path [line] (node2) -- (node3);
+\path [line] (node3) -- (node4);
+
+\end{tikzpicture}
+}
+\caption{Loop Execution}
+\label{fig:dummy}
+\end {figure}
+
+We have to reduce the the communication time from the esp32 to the fog node and back. Here we introduce OPC-UA (Open Platform Communication United Architecture) which is a data exchange standard for next generation industrial communication
+
+  \pagebreak
+  \section{Open Platform Communication United Architecture-OPC-UA}
+  OPC-UA is a mechanism for transferring information between server and client which is secure,open and reliable. 
+	Here, we will implement the OPC-UA fog server for calculating the PID function and the esp32 will act like an OPC-UA client. 
+	
+	\subsection{Steps invloved in configuration of OPC UA}
+	\begin{itemize}
+	\item Server Initial Configuration
+	\item Local Discovery Server LDS - Registration 
+	\item Client Configuration
+	\item Local Discovery Server LDS - Discovery 
+	\item Connection configuration
+	 \end{itemize}	
+	 
+	\subsection{Steps invloved in configuration of OPC UA}
+	  	
+  	 
   \pagebreak
   \section{Problems faced}
   Problem : Lego Ultrasonic sensor does use simple I2C communication\\

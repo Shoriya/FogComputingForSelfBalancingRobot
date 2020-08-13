@@ -1,0 +1,758 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.31)  13 AUG 2020 15:34
+entering extended mode
+**./BalancingBot.tex
+(BalancingBot.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15>
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/listings.sty
+\lst@mode=\count175
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count176
+\lst@currlwidth=\dimen137
+\lst@column=\count177
+\lst@pos=\count178
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count179
+\lst@lineno=\count180
+\lst@maxwidth=\dimen140
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count181
+\lst@skipnumbers=\count182
+\lst@framebox=\box46
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common
+.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen141
+\pgfutil@tempdimb=\dimen142
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common
+-lists.tex))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.
+def
+\pgfutil@abb=\box47
+ (/home/tk_conda/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.te
+x (/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.
+tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
+ex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltere
+d.code.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen143
+\pgf@y=\dimen144
+\pgf@xa=\dimen145
+\pgf@ya=\dimen146
+\pgf@xb=\dimen147
+\pgf@yb=\dimen148
+\pgf@xc=\dimen149
+\pgf@yc=\dimen150
+\pgf@xd=\dimen151
+\pgf@yd=\dimen152
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count183
+\c@pgf@countb=\count184
+\c@pgf@countc=\count185
+\c@pgf@countd=\count186
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count187
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdfte
+x.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-commo
+n-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpa
+th.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count188
+\pgfsyssoftpath@bigbuffer@items=\count189
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoc
+ol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.
+tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.te
+x
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.te
+x)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.
+tex
+\pgfmath@dimen=\dimen153
+\pgfmath@count=\count190
+\pgfmath@box=\box48
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
+de.tex
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
+sic.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tr
+igonometric.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ra
+ndom.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
+mparison.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
+se.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ro
+und.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mi
+sc.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.in
+tegerarithmetics.code.tex)))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.t
+ex
+\c@pgfmathroundto@lastzeros=\count191
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints
+.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen154
+\pgf@picmaxx=\dimen155
+\pgf@picminy=\dimen156
+\pgf@picmaxy=\dimen157
+\pgf@pathminx=\dimen158
+\pgf@pathmaxx=\dimen159
+\pgf@pathminy=\dimen160
+\pgf@pathmaxy=\dimen161
+\pgf@xx=\dimen162
+\pgf@xy=\dimen163
+\pgf@yx=\dimen164
+\pgf@yy=\dimen165
+\pgf@zx=\dimen166
+\pgf@zy=\dimen167
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathco
+nstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen168
+\pgf@path@lasty=\dimen169
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathus
+age.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen170
+\pgf@shorten@start@additional=\dimen171
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes
+.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count192
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphi
+cstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen172
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransf
+ormations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen173
+\pgf@pt@y=\dimen174
+\pgf@pt@temp=\dimen175
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.
+code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobject
+s.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpr
+ocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows
+.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen176
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.
+code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen177
+\pgf@sys@shading@range@num=\count193
+\pgf@shadingcount=\count194
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.
+code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreextern
+al.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box52
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers
+.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransp
+arency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatter
+ns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.co
+de.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.
+code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box53
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.co
+de.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
+ion-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen178
+\pgf@nodesepend=\dimen179
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
+ion-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
+ex)) (/home/tk_conda/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.te
+x
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen180
+\pgffor@skip=\dimen181
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.
+code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplot
+handlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count195
+\pgfplotmarksize=\dimen182
+)
+\tikz@lastx=\dimen183
+\tikz@lasty=\dimen184
+\tikz@lastxsaved=\dimen185
+\tikz@lastysaved=\dimen186
+\tikz@lastmovetox=\dimen187
+\tikz@lastmovetoy=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count196
+\tikznumberofchildren=\count197
+\tikznumberofcurrentchild=\count198
+\tikz@fig@count=\count199
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.
+code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count266
+\pgfmatrixcurrentcolumn=\count267
+\pgf@matrix@numberofcolumns=\count268
+)
+\tikz@expandcount=\count269
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarro
+ws.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen191
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryfadi
+ngs.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.callouts.code.tex
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.callouts.code.tex))
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/home/tk_conda/.miktex/texmfs/install/tex/generic/pgf/libraries/shapes/pgflibr
+aryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box58
+\pgfnodeparttwobox=\box59
+\pgfnodepartthreebox=\box60
+\pgfnodepartfourbox=\box61
+\pgfnodeparttwentybox=\box62
+\pgfnodepartnineteenbox=\box63
+\pgfnodeparteighteenbox=\box64
+\pgfnodepartseventeenbox=\box65
+\pgfnodepartsixteenbox=\box66
+\pgfnodepartfifteenbox=\box67
+\pgfnodepartfourteenbox=\box68
+\pgfnodepartthirteenbox=\box69
+\pgfnodeparttwelvebox=\box70
+\pgfnodepartelevenbox=\box71
+\pgfnodeparttenbox=\box72
+\pgfnodepartninebox=\box73
+\pgfnodeparteightbox=\box74
+\pgfnodepartsevenbox=\box75
+\pgfnodepartsixbox=\box76
+\pgfnodepartfivebox=\box77
+)))
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmode.de
+f
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count270
+\l__pdf_internal_box=\box78
+) (BalancingBot.aux
+
+LaTeX Warning: Label `Instrutable' multiply defined.
+
+)
+\openout1 = `BalancingBot.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+ (/home/tk_conda/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen192
+\scratchbox=\box79
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen193
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks30
+)
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\c@lstlisting=\count277
+ ABD: EveryShipout initializing macros [1
+
+{/home/tk_conda/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+<balance.png, id=33, 531.9875pt x 352.31625pt>
+File: balance.png Graphic file (type png)
+<use balance.png>
+Package pdftex.def Info: balance.png  used on input line 99.
+(pdftex.def)             Requested size: 265.9931pt x 176.15768pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 120.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 120.
+<legomotor.png, id=40, 290.08376pt x 218.8175pt>
+File: legomotor.png Graphic file (type png)
+<use legomotor.png>
+Package pdftex.def Info: legomotor.png  used on input line 138.
+(pdftex.def)             Requested size: 145.04152pt x 109.40848pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./balance.png>]
+<mpu6050.png, id=45, 331.2375pt x 291.0875pt>
+File: mpu6050.png Graphic file (type png)
+<use mpu6050.png>
+Package pdftex.def Info: mpu6050.png  used on input line 157.
+(pdftex.def)             Requested size: 165.61833pt x 145.54338pt.
+ [4 <./legomotor.png> <./mpu6050.png>]
+<ultrasonic.png, id=49, 336.25626pt x 272.01625pt>
+File: ultrasonic.png Graphic file (type png)
+<use ultrasonic.png>
+Package pdftex.def Info: ultrasonic.png  used on input line 170.
+(pdftex.def)             Requested size: 168.12772pt x 136.00778pt.
+
+Overfull \hbox (9.86174pt too wide) in paragraph at lines 176--177
+\OT1/cmr/m/n/10 The L298 is an integrated monolithic circuit in a 15-lead Multi
+watt and PowerSO20
+ []
+
+<L298N.png, id=50, 599.23875pt x 600.2425pt>
+File: L298N.png Graphic file (type png)
+<use L298N.png>
+Package pdftex.def Info: L298N.png  used on input line 180.
+(pdftex.def)             Requested size: 299.61864pt x 300.12051pt.
+[5 <./ultrasonic.png> <./L298N.png>]
+Overfull \hbox (5.08397pt too wide) in paragraph at lines 194--195
+\OT1/cmr/m/n/10 information we can obtain the angle of the robot, the problem o
+f the accelerometer
+ []
+
+<complimentaryfilter.png, id=54, 778.91pt x 154.5775pt>
+File: complimentaryfilter.png Graphic file (type png)
+<use complimentaryfilter.png>
+Package pdftex.def Info: complimentaryfilter.png  used on input line 203.
+(pdftex.def)             Requested size: 389.45406pt x 77.28854pt.
+[6 <./complimentaryfilter.png>]
+<PIDcontrol.png, id=58, 621.32124pt x 257.96375pt>
+File: PIDcontrol.png Graphic file (type png)
+<use PIDcontrol.png>
+Package pdftex.def Info: PIDcontrol.png  used on input line 221.
+(pdftex.def)             Requested size: 310.65987pt x 128.98155pt.
+
+Overfull \hbox (7.75069pt too wide) in paragraph at lines 226--229
+[]\OT1/cmr/m/n/10 The proportional term (gain) makes a change to the output tha
+t is proportional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
+
+ []
+
+[7 <./PIDcontrol.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 249--255
+
+ []
+
+<PinConnection.png, id=63, 819.06pt x 436.63126pt>
+File: PinConnection.png Graphic file (type png)
+<use PinConnection.png>
+Package pdftex.def Info: PinConnection.png  used on input line 259.
+(pdftex.def)             Requested size: 409.52899pt x 218.3151pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
+
+ []
+
+[8 <./PinConnection.png>]
+<Structure.jpg, id=67, 4047.12pt x 3035.34pt>
+File: Structure.jpg Graphic file (type jpg)
+<use Structure.jpg>
+Package pdftex.def Info: Structure.jpg  used on input line 286.
+(pdftex.def)             Requested size: 2023.55508pt x 1517.6663pt.
+ [9 <./Structure.jpg>]
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+
+Package xcolor Warning: Incompatible color definition on input line 306.
+
+[10]
+Overfull \hbox (49.78287pt too wide) in paragraph at lines 347--347
+[]\OT1/cmr/bx/n/14.4 Open Platform Communication United Architecture-
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]\OT1/cmr/m/n/10 https://www.instructables.com/id/Arduino-Self-Balancing-Robot
+-1/self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+[]\OT1/cmr/m/n/10 https://howtomechatronics.com/tutorials/arduino/arduino-dc-mo
+tor-
+ []
+
+[13] (BalancingBot.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15858 strings out of 482728
+ 338089 string characters out of 2948760
+ 572198 words of memory out of 3000000
+ 31354 multiletter control sequences out of 15000+200000
+ 534657 words of font info for 32 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 60i,10n,83p,664b,1186s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/tk_conda/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1
+000.pk></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmtt9.pfb>
+Output written on BalancingBot.pdf (13 pages, 2665057 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+
