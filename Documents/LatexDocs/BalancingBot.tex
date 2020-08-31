@@ -346,9 +346,49 @@ We have to reduce the the communication time from the esp32 to the fog node and 
   \pagebreak
   \section{Open Platform Communication United Architecture-OPC-UA}
   OPC-UA is a mechanism for transferring information between server and client which is secure,open and reliable. 
-	Here, we will implement the OPC-UA fog server for calculating the PID function and the esp32 will act like an OPC-UA client. 
+	Here, we will implement the OPC-UA fog server for calculating the PID function and the esp32 will act like an OPC-UA client. \\
 	
-	\subsection{Steps invloved in configuration of OPC UA}
+	\subsection{What is OPC-UA?}
+	OPC is the interoperability standard for the secure and reliable exchange of data in the industrial automation space and in other industries. It is platform independent and ensures the seamless flow of information among devices from multiple vendors. The OPC Foundation is responsible for the development and maintenance of this standard.\\
+	\\
+	
+	Functionality of OPC-UA:
+	\begin{itemize}
+	\item Discovery: find the availability of OPC Servers on local PCs and/or networks
+\item Address space: all data is represented hierarchically (e.g. files and folders) allowing for simple and complex structures to be discovered and utilized by OPC Clients
+\item On-demand: read and write data/information based on access-permissions
+\item Subscriptions: monitor data/information and report-by-exception when values change based on a client’s criteria
+\item Events: notify important information based on client’s criteria
+\item Methods: clients can execute programs, etc. based on methods defined on the server	
+	\end{itemize}
+	
+	\subsection{Information Modelling and Access}
+	The OPC UA information modeling framework turns data into information. With complete object-oriented capabilities, even the most complex multi-level structures can be modeled and extended.
+
+This framework is THE fundamental element of OPC Unified Architecture. It defines the rules and base building blocks necessary to expose an information model with OPC UA. While OPC UA already defines several core models that can be applied in many industries, other organizations build their models upon them, exposing their more specific information with OPC UA.
+
+OPC UA also defines the necessary access mechanisms to information models.
+
+Look-up mechanism (browsing) to locate instances and their semantic
+Read and write operations for current data and historical data
+Method execution
+Notification for data and events
+For Client-Server communication the full range of information model access is available via services and in doing so follows the design paradigm of service-oriented architecture (SOA), with which a service provider receives requests, processes them and sends the results back with the response.
+
+Publish-Subscribe (PubSub), provides an alternative mechanism for data and event notification. While in Client-Server communication each notification is for a single client with guaranteed delivery, PubSub has been optimized for many-to-many configurations.
+
+With PubSub, OPC UA applications do not directly exchange requests and responses. Instead, Publishers send messages to a Message Oriented Middleware, without knowledge of what, if any, Subscribers there may be. Similarly, Subscribers express interest in specific types of data, and process messages that contain this data, without a need to know where it originated from.
+
+	\subsection{Software Required}
+	\begin{itemize}
+	\item Eclipse with PyDev installed
+	\item OPC-UA installed on machine 
+	 \end{itemize}	
+
+	\subsection{Client-Server communication}
+	OPC UA with client / server communication is widespread in automation. In this proven "one-to-one" communication mechanism, each OPC UA client receives access to the data of the OPC UA server via point-to-point communication: The OPC UA client sends a request to the OPC UA Server and receives an answer from it. This form of communication enables reliable, secure and encrypted data exchange with reduced bandwidth and without data loss, even if the environment and network quality are not optimal and have interference. The client / server communication is always based on TCP / IP.
+	\\
+	\subsubsection{Steps invloved in configuration of OPC UA Client Server Communication}
 	\begin{itemize}
 	\item Server Initial Configuration
 	\item Local Discovery Server LDS - Registration 
@@ -357,7 +397,101 @@ We have to reduce the the communication time from the esp32 to the fog node and 
 	\item Connection configuration
 	 \end{itemize}	
 	 
-	\subsection{Steps invloved in configuration of OPC UA}
+	 Example Server code:
+	 \begin{lstlisting}[language=Python]
+		from opcua import Server
+		import time
+		
+		server = Server()
+		url = "ipurl:portno"
+		server.set_endpoint(url)
+		
+		name="OPCUA_SIMULATION_SERVER"  //Address space defination
+		addspace=server.register_namespace(name)
+		 
+		 node = server.get_objects_node() //Get the root node from the address space
+		 
+		 Param= node.add_objects(addspace, "Parameters")//need to define a node where we need to store the parameter
+		 
+		 angle = Param.add_variable(addspace,"angle",0)
+		 
+		 
+		 //make the variable writable
+		 angle.set_writable()
+		 
+		 server.start()
+		 print("Server started")
+		 
+		 while True:
+		 	angle=50;
+		 	
+		 	angle.set_value(angle)	
+		 	time.sleep(2)
+		\end{lstlisting}
+UI Client application UAEXPERT 1.4.4 can be used to connect to the server for analzing data but if some calculation have to be made to the dataset the client program has to be written.  	
+
+The application can be used to get the node ids of the data variables.	
+		
+		Example Client code:
+	 \begin{lstlisting}[language=Python]
+		from opcua import Client
+		import time
+		
+		url = "ipurl:portno"
+		
+		client = Client(url)
+		client.connect()
+		print("Client connected")
+		
+		while True:
+		 angle = client.get_node(nodeid,numericvalue)
+		 Total = angle.get_value()
+		 print(Total)
+		 		 
+		 time.sleep(2)
+		\end{lstlisting}
+		
+			 	
+	
+	\subsection{Publish-Subscribe (PubSub) communication}
+	With OPC UA with a PubSub model - PubSub stands for publish / subscribe - a "one-to-many" or "many-to-one" communication mechanism is used: a publisher makes data available from any number Subscribers in the network can be received.In combination with Time-Sensitive Networking (TSN), OPC UA PubSub enables real-time communication at the control level and meets the requirements of time-critical applications.
+	OPC UA PubSub also supports peer to peer communications between multiple controllers, as well as, between controllers and human machine interfaces (HMI). It also guarantees real-time communications and asynchronous workflows between OPC UA servers and the cloud. In terms of security, PubSub specifications integrate SHA-256 algorithms to guarantee privacy and security when data is exchanged locally or through the cloud.
+
+Lastly, OPC UA PubSub accommodates time-sensitive networking (TSN) technologies to drive time-critical applications in industries. According to EXOR International, the integration of OPC UA PubSub while accommodating TSN, speed up cycle times which occurred under two milliseconds and jitter of 100 nanoseconds. This ensures equipment can handle time-critical applications without encountering bottlenecks.
+	 \\
+	 \subsubsection{Steps invloved in configuration of OPC UA PubSub Communication}
+	\begin{itemize}
+	\item Subscriber Initial Configuration
+	\item Subscriber registration to topic on broker(middleware)
+	\item Publisher Initial Configuration
+	\item Publisher registeration to topic on broker
+	\item Connection configuration
+	\item PubSub communicate via broker
+	 \end{itemize}	
+	 	
+	
+	 	
+	\subsection{Good Reasons for OPC UA}
+	\subsubsection{Features}
+	\begin{itemize}
+	\item Manufacturer-independent and platform-neutral
+	\item Integrated security concept (encryption, signing and authentication)
+	\item Consistent and scalable
+	\item Information model and semantic services
+	\item Unrestricted parallel operation with PROFINET
+	\item Real-time capability of OPC UA PubSub in combination with Time-Sensitive Networking (TSN)
+	\end{itemize}
+	
+	\subsubsection{Use}
+	\begin{itemize}
+	\item Standardized interface and wide availability
+\item Secure communication without additional hardware directly in the protocol
+\item Simple and clear interpretation of the data
+\item Simple networking on an Ethernet basis, use of the existing Industrial Ethernet infrastructure
+\item Internationally standardized interfaces for easy machine integration (companion specifications)
+\item High performance through fast communication
+\item When using TSN hardware and OPC UA PubSub, OPC UA data can be transmitted deterministically regardless of the load in the network
+	\end{itemize}
 	  	
   	 
   \pagebreak
@@ -390,7 +524,23 @@ We have to reduce the the communication time from the esp32 to the fog node and 
  		 
  		 \bibitem{L298N} 
  		 {https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/}
+ 		 
+ 		  \bibitem{OPC-UA} 
+ 		 {http://opcfoundation.github.io/UA-LDS/}
+ 		 
+ 		   \bibitem{OPC-UA basic}  
+ 		 {https://opcfoundation.org/about/what-is-opc/}
+ 		 
+ 		  \bibitem{OPC-UA}  
+ 		 {https://new.siemens.com/global/de/produkte/automatisierung/industrielle-kommunikation/opc-ua.html}
+ 		 
+ 		 \bibitem{OPC-UA}  
+ 		 {https://www.youtube.com/watch?v=NLNhHoo6X94}
+ 		 {https://www.youtube.com/watch?v=1NlbUAlOdcA}
+ 		 {https://www.youtube.com/watch?v=12dnhcEmrU0}
  		
+ 		\bibitem{OPC-UA} 
+ 		{https://www.exorint.com/en/blog/the-introduction-of-opc-ua-pubsub-publish-subscribe-and-its-importance-to-manufacturers}
  		
  	\end{thebibliography}
  	

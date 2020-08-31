@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.31)  13 AUG 2020 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.31)  31 AUG 2020 18:02
 entering extended mode
 **./BalancingBot.tex
 (BalancingBot.tex
@@ -503,6 +503,15 @@ File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 
 LaTeX Warning: Label `Instrutable' multiply defined.
 
+
+LaTeX Warning: Label `OPC-UA' multiply defined.
+
+
+LaTeX Warning: Label `OPC-UA' multiply defined.
+
+
+LaTeX Warning: Label `OPC-UA' multiply defined.
+
 )
 \openout1 = `BalancingBot.aux'.
 
@@ -703,46 +712,244 @@ Overfull \hbox (49.78287pt too wide) in paragraph at lines 347--347
 []\OT1/cmr/bx/n/14.4 Open Platform Communication United Architecture-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
+
+ []
+
+
+Overfull \hbox (1.24832pt too wide) in paragraph at lines 370--371
+[]\OT1/cmr/m/n/10 OPC UA also defines the necessary access mechanisms to inform
+ation models. 
+ []
+
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
+Overfull \hbox (0.76901pt too wide) in paragraph at lines 380--381
+\OT1/cmr/m/n/10 responses. Instead, Publishers send messages to a Message Orien
+ted Middleware,
+ []
+
+
+Overfull \hbox (11.24144pt too wide) in paragraph at lines 380--381
+\OT1/cmr/m/n/10 without knowledge of what, if any, Subscribers there may be. Si
+milarly, Subscribers
+ []
+
+
+Overfull \hbox (11.27615pt too wide) in paragraph at lines 389--391
+\OT1/cmr/m/n/10 receives access to the data of the OPC UA server via point-to-p
+oint communication:
+ []
+
+
+Overfull \hbox (7.46358pt too wide) in paragraph at lines 389--391
+\OT1/cmr/m/n/10 answer from it. This form of communication enables reliable, se
+cure and encrypted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
-
+Overfull \hbox (50.7051pt too wide) in paragraph at lines 391--391
+[]\OT1/cmr/bx/n/10 Steps invloved in configuration of OPC UA Client Server Comm
+unication 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
-
- []
-
+(/home/tk_conda/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 409.
+
+
+Package xcolor Warning: Incompatible color definition on input line 409.
+
+
+Package xcolor Warning: Incompatible color definition on input line 409.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 414.
+
+
+Package xcolor Warning: Incompatible color definition on input line 416.
+
+
+Package xcolor Warning: Incompatible color definition on input line 416.
+
+
+Package xcolor Warning: Incompatible color definition on input line 416.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+
+Package xcolor Warning: Incompatible color definition on input line 440.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+[13]
+Overfull \hbox (0.7969pt too wide) in paragraph at lines 460--462
+\OT1/cmr/m/n/10 technologies to drive time-critical applications in industries.
+ According to EXOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--462
+
+ []
+
+
+Overfull \hbox (25.29546pt too wide) in paragraph at lines 462--462
+[]\OT1/cmr/bx/n/10 Steps invloved in configuration of OPC UA PubSub Communicati
+on 
+ []
+
+[14]
+Overfull \hbox (1.80623pt too wide) in paragraph at lines 488--489
+[]\OT1/cmr/m/n/10 Secure communication without additional hardware directly in 
+the protocol 
+ []
+
+
+Overfull \hbox (22.25072pt too wide) in paragraph at lines 491--492
+[]\OT1/cmr/m/n/10 Internationally standardized interfaces for easy machine inte
+gration (companion
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
 []\OT1/cmr/m/n/10 https://www.instructables.com/id/Arduino-Self-Balancing-Robot
 -1/self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 []\OT1/cmr/m/n/10 https://howtomechatronics.com/tutorials/arduino/arduino-dc-mo
 tor-
  []
 
-[13] (BalancingBot.aux)
+
+Overfull \hbox (2.86191pt too wide) in paragraph at lines 535--536
+[]\OT1/cmr/m/n/10 https://new.siemens.com/global/de/produkte/automatisierung/in
+dustrielle-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--541
+[]\OT1/cmr/m/n/10 https://www.youtube.com/watch?v=NLNhHoo6X94
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--541
+\OT1/cmr/m/n/10 https://www.youtube.com/watch?v=1NlbUAlOdcA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+[]\OT1/cmr/m/n/10 https://www.exorint.com/en/blog/the-introduction-of-opc-ua-pu
+bsub-
+ []
+
+[17] (BalancingBot.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15858 strings out of 482728
- 338089 string characters out of 2948760
- 572198 words of memory out of 3000000
- 31354 multiletter control sequences out of 15000+200000
+ 16083 strings out of 482728
+ 340638 string characters out of 2948760
+ 781025 words of memory out of 3000000
+ 31577 multiletter control sequences out of 15000+200000
  534657 words of font info for 32 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 60i,10n,83p,664b,1186s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,10n,83p,664b,1816s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/tk_conda/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1
 000.pk></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
@@ -750,9 +957,9 @@ cmbx12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmtt9.pfb>
-Output written on BalancingBot.pdf (13 pages, 2665057 bytes).
+Output written on BalancingBot.pdf (17 pages, 2679782 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
