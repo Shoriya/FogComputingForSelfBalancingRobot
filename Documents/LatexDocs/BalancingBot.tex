@@ -6,6 +6,7 @@
 \graphicspath{ {/home/tk_conda/Documents/Shoriya/HIWI/RTS_documents/texdoc} }
 \usepackage{listings}
 \usepackage{color}
+\usepackage{hyperref}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -289,6 +290,9 @@ Those problems can be resolved be the combination of both sensors, that's called
  		\end{figure}
  		
  	The struture is able to balance it self with the defined values of PID when the PId is implemented on the controller.
+ 	
+ 	Self Balancing robot : \href{https://photos.app.goo.gl/xHS9JjkftqMNMiwo9}{Final Running Structure}
+ 		 
   
   \section{Fog Node}
   Here we using Python socket as our server node (fog node) to implement PID module. The esp32 functions to supply the current angle and the server replies back with the change in motor to be stable. 
@@ -505,42 +509,45 @@ Lastly, OPC UA PubSub accommodates time-sensitive networking (TSN) technologies 
   Problem : Shifting code from arduino to ESP32\\
   Solution : ESP32 is not compatible with the libraries for MPU6050 and I2C used in arduino. Hence the code had to be modified for specific integration of gyroscope and accelerometer.\\
     
-  Problem : Getting exact value of the Kp,Ki and Kd
-  Solution : Have to change the Target angle as well as the Kp Ki Kd value on trial and error to get the exact value for the balance
+  Problem : Getting exact value of the Kp,Ki and Kd\\
+  Solution : Have to change the Target angle as well as the Kp Ki Kd value on trial and error to get the exact value for the balance\\
+  
+    Problem : Runtime Time estimation\\
+  Solution : To get the exact runtime the battery should be fully charged as the target angle depends on the power of the battery remaining. 
     	
  	\pagebreak
  	\begin{thebibliography}{9}
  		\bibitem{Instrutable} 
- 		{https://www.instructables.com/id/Arduino-Self-Balancing-Robot-1/}{self-Balancing Robot}
- 		
+ 		\href{https://www.instructables.com/id/Arduino-Self-Balancing-Robot-1/}{Self-Balancing Robot}
+ 	
  		\bibitem{Instrutable} 
- 		{https://www.instructables.com/id/Self-Balancing-Robot-1/}
+ 		\href{https://www.instructables.com/id/Self-Balancing-Robot-1/}{Instrutable Robot Structure}
  		
  		\bibitem{osoyoo} 
- 		{https://osoyoo.com/2018/08/08/self-balancing-robot-pid-control/}
+ 		\href{https://osoyoo.com/2018/08/08/self-balancing-robot-pid-control/}{osoyoo-PId controller} 
  		
  		\bibitem{pdf} 
- 		{https://www.cs.cmu.edu/~16311}
+ 		\href{https://www.cs.cmu.edu/~16311}{pdf} 
  		 
  		 \bibitem{L298N} 
- 		 {https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/}
+ 		 \href{https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/}{L298N H bridge} 
  		 
  		  \bibitem{OPC-UA} 
- 		 {http://opcfoundation.github.io/UA-LDS/}
+ 		 \href{http://opcfoundation.github.io/UA-LDS/}{OPC-UA Foundation}
  		 
  		   \bibitem{OPC-UA basic}  
- 		 {https://opcfoundation.org/about/what-is-opc/}
+ 		 \href{https://opcfoundation.org/about/what-is-opc/}{OPC-UA basic}  
  		 
  		  \bibitem{OPC-UA}  
- 		 {https://new.siemens.com/global/de/produkte/automatisierung/industrielle-kommunikation/opc-ua.html}
+ 		 \href{https://new.siemens.com/global/de/produkte/automatisierung/industrielle-kommunikation/opc-ua.html}{OPC-UA Communication}  
  		 
  		 \bibitem{OPC-UA}  
- 		 {https://www.youtube.com/watch?v=NLNhHoo6X94}
- 		 {https://www.youtube.com/watch?v=1NlbUAlOdcA}
- 		 {https://www.youtube.com/watch?v=12dnhcEmrU0}
+ 		 \href{https://www.youtube.com/watch?v=NLNhHoo6X94}{OPC-UA Tutorials}  
+ 		 \href{https://www.youtube.com/watch?v=1NlbUAlOdcA}{OPC-UA Tutorials}  
+ 		 \href{https://www.youtube.com/watch?v=12dnhcEmrU0}{OPC-UA Tutorials}   
  		
  		\bibitem{OPC-UA} 
- 		{https://www.exorint.com/en/blog/the-introduction-of-opc-ua-pubsub-publish-subscribe-and-its-importance-to-manufacturers}
+ 		\href{https://www.exorint.com/en/blog/the-introduction-of-opc-ua-pubsub-publish-subscribe-and-its-importance-to-manufacturers}{OPC-UA}  
  		
  	\end{thebibliography}
  	

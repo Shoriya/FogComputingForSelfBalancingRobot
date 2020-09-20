@@ -1,0 +1,30 @@
+\BOOKMARK [1][-]{section.1}{Motivation}{}% 1
+\BOOKMARK [1][-]{section.2}{Project Flow}{}% 2
+\BOOKMARK [1][-]{section.3}{Literature Survey}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Requirement for balancing the robot}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Hardware required}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Lego Motors}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Gyroscopic Sensor}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{MPU 6050}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.4}{Ultrasonic Sensor}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.5}{L298N}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Control System}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Angle Measurement using MPU6050}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Complimentary Filter}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{PID Controller}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Integrating ESP32}{}% 15
+\BOOKMARK [1][-]{section.7}{Structure Modelling}{}% 16
+\BOOKMARK [1][-]{section.8}{Fog Node}{}% 17
+\BOOKMARK [2][-]{subsection.8.1}{Exeution time}{section.8}% 18
+\BOOKMARK [1][-]{section.9}{Open Platform Communication United Architecture-OPC-UA}{}% 19
+\BOOKMARK [2][-]{subsection.9.1}{What is OPC-UA?}{section.9}% 20
+\BOOKMARK [2][-]{subsection.9.2}{Information Modelling and Access}{section.9}% 21
+\BOOKMARK [2][-]{subsection.9.3}{Software Required}{section.9}% 22
+\BOOKMARK [2][-]{subsection.9.4}{Client-Server communication}{section.9}% 23
+\BOOKMARK [3][-]{subsubsection.9.4.1}{Steps invloved in configuration of OPC UA Client Server Communication}{subsection.9.4}% 24
+\BOOKMARK [2][-]{subsection.9.5}{Publish-Subscribe \(PubSub\) communication}{section.9}% 25
+\BOOKMARK [3][-]{subsubsection.9.5.1}{Steps invloved in configuration of OPC UA PubSub Communication}{subsection.9.5}% 26
+\BOOKMARK [2][-]{subsection.9.6}{Good Reasons for OPC UA}{section.9}% 27
+\BOOKMARK [3][-]{subsubsection.9.6.1}{Features}{subsection.9.6}% 28
+\BOOKMARK [3][-]{subsubsection.9.6.2}{Use}{subsection.9.6}% 29
+\BOOKMARK [1][-]{section.10}{Problems faced}{}% 30
