@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.31)  20 SEP 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.31)  22 SEP 2020 11:16
 entering extended mode
 **./BalancingBot.tex
 (BalancingBot.tex
@@ -639,22 +639,22 @@ LaTeX Warning: Label `OPC-UA' multiply defined.
 )
 \openout1 = `BalancingBot.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (/home/tk_conda/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count281
@@ -676,7 +676,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 \c@lstlisting=\count287
 \AtBeginShipoutBox=\box80
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 33.
  (/home/tk_conda/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -689,9 +689,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
  (BalancingBot.out) (BalancingBot.out)
 \@outlinefile=\write4
 \openout4 = `BalancingBot.out'.
@@ -700,24 +700,28 @@ LaTeX Info: Redefining \nameref on input line 35.
 ABD: EveryShipout initializing macros [1
 
 {/home/tk_conda/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+Overfull \hbox (6.02838pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 These information can be read from Robot using the accelero-met
+er and gyroscope
+ []
+
 <balance.png, id=156, 531.9875pt x 352.31625pt>
 File: balance.png Graphic file (type png)
 <use balance.png>
-Package pdftex.def Info: balance.png  used on input line 100.
+Package pdftex.def Info: balance.png  used on input line 99.
 (pdftex.def)             Requested size: 265.9931pt x 176.15768pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 121.
+(Font)              <7> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 120.
 <legomotor.png, id=164, 290.08376pt x 218.8175pt>
 File: legomotor.png Graphic file (type png)
 <use legomotor.png>
-Package pdftex.def Info: legomotor.png  used on input line 139.
+Package pdftex.def Info: legomotor.png  used on input line 138.
 (pdftex.def)             Requested size: 145.04152pt x 109.40848pt.
 
 
@@ -727,16 +731,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <mpu6050.png, id=172, 331.2375pt x 291.0875pt>
 File: mpu6050.png Graphic file (type png)
 <use mpu6050.png>
-Package pdftex.def Info: mpu6050.png  used on input line 158.
+Package pdftex.def Info: mpu6050.png  used on input line 157.
 (pdftex.def)             Requested size: 165.61833pt x 145.54338pt.
  [4 <./legomotor.png> <./mpu6050.png>]
 <ultrasonic.png, id=180, 336.25626pt x 272.01625pt>
 File: ultrasonic.png Graphic file (type png)
 <use ultrasonic.png>
-Package pdftex.def Info: ultrasonic.png  used on input line 171.
+Package pdftex.def Info: ultrasonic.png  used on input line 170.
 (pdftex.def)             Requested size: 168.12772pt x 136.00778pt.
 
-Overfull \hbox (9.86174pt too wide) in paragraph at lines 177--178
+Overfull \hbox (9.86174pt too wide) in paragraph at lines 176--177
 \OT1/cmr/m/n/10 The L298 is an integrated monolithic circuit in a 15-lead Multi
 watt and PowerSO20
  []
@@ -744,10 +748,10 @@ watt and PowerSO20
 <L298N.png, id=181, 599.23875pt x 600.2425pt>
 File: L298N.png Graphic file (type png)
 <use L298N.png>
-Package pdftex.def Info: L298N.png  used on input line 181.
+Package pdftex.def Info: L298N.png  used on input line 180.
 (pdftex.def)             Requested size: 299.61864pt x 300.12051pt.
 [5 <./ultrasonic.png> <./L298N.png>]
-Overfull \hbox (5.08397pt too wide) in paragraph at lines 195--196
+Overfull \hbox (5.08397pt too wide) in paragraph at lines 194--195
 \OT1/cmr/m/n/10 information we can obtain the angle of the robot, the problem o
 f the accelerometer
  []
@@ -755,42 +759,42 @@ f the accelerometer
 <complimentaryfilter.png, id=188, 778.91pt x 154.5775pt>
 File: complimentaryfilter.png Graphic file (type png)
 <use complimentaryfilter.png>
-Package pdftex.def Info: complimentaryfilter.png  used on input line 204.
+Package pdftex.def Info: complimentaryfilter.png  used on input line 203.
 (pdftex.def)             Requested size: 389.45406pt x 77.28854pt.
 [6 <./complimentaryfilter.png>]
 <PIDcontrol.png, id=194, 621.32124pt x 257.96375pt>
 File: PIDcontrol.png Graphic file (type png)
 <use PIDcontrol.png>
-Package pdftex.def Info: PIDcontrol.png  used on input line 222.
+Package pdftex.def Info: PIDcontrol.png  used on input line 221.
 (pdftex.def)             Requested size: 310.65987pt x 128.98155pt.
 
-Overfull \hbox (7.75069pt too wide) in paragraph at lines 227--230
+Overfull \hbox (7.75069pt too wide) in paragraph at lines 226--229
 []\OT1/cmr/m/n/10 The proportional term (gain) makes a change to the output tha
 t is proportional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
+Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
 [7 <./PIDcontrol.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--256
+Underfull \hbox (badness 10000) in paragraph at lines 249--255
 
  []
 
 <PinConnection.png, id=201, 819.06pt x 436.63126pt>
 File: PinConnection.png Graphic file (type png)
 <use PinConnection.png>
-Package pdftex.def Info: PinConnection.png  used on input line 260.
+Package pdftex.def Info: PinConnection.png  used on input line 259.
 (pdftex.def)             Requested size: 409.52899pt x 218.3151pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--275
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--275
+Underfull \hbox (badness 10000) in paragraph at lines 264--274
 
  []
 
@@ -798,11 +802,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--275
 <Structure.jpg, id=207, 4047.12pt x 3035.34pt>
 File: Structure.jpg Graphic file (type jpg)
 <use Structure.jpg>
-Package pdftex.def Info: Structure.jpg  used on input line 287.
+Package pdftex.def Info: Structure.jpg  used on input line 286.
 (pdftex.def)             Requested size: 2023.55508pt x 1517.6663pt.
  [9 <./Structure.jpg>]
 
-Package xcolor Warning: Incompatible color definition on input line 309.
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
+
+
+Package xcolor Warning: Incompatible color definition on input line 308.
 
 
 Package xcolor Warning: Incompatible color definition on input line 309.
@@ -829,89 +857,65 @@ Package xcolor Warning: Incompatible color definition on input line 309.
 Package xcolor Warning: Incompatible color definition on input line 309.
 
 
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
-
-
-Package xcolor Warning: Incompatible color definition on input line 310.
+Package xcolor Warning: Incompatible color definition on input line 309.
 
 [10]
-Overfull \hbox (49.78287pt too wide) in paragraph at lines 351--351
+Overfull \hbox (49.78287pt too wide) in paragraph at lines 350--350
 []\OT1/cmr/bx/n/14.4 Open Platform Communication United Architecture-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--358
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
-Overfull \hbox (1.24832pt too wide) in paragraph at lines 374--375
+Overfull \hbox (1.24832pt too wide) in paragraph at lines 373--374
 []\OT1/cmr/m/n/10 OPC UA also defines the necessary access mechanisms to inform
 ation models. 
  []
 
 [11]
-Overfull \hbox (0.76901pt too wide) in paragraph at lines 384--385
+Overfull \hbox (0.76901pt too wide) in paragraph at lines 383--384
 \OT1/cmr/m/n/10 responses. Instead, Publishers send messages to a Message Orien
 ted Middleware,
  []
 
 
-Overfull \hbox (11.24144pt too wide) in paragraph at lines 384--385
+Overfull \hbox (11.24144pt too wide) in paragraph at lines 383--384
 \OT1/cmr/m/n/10 without knowledge of what, if any, Subscribers there may be. Si
 milarly, Subscribers
  []
 
 
-Overfull \hbox (11.27615pt too wide) in paragraph at lines 393--395
+Overfull \hbox (11.27615pt too wide) in paragraph at lines 392--394
 \OT1/cmr/m/n/10 receives access to the data of the OPC UA server via point-to-p
 oint communication:
  []
 
 
-Overfull \hbox (7.46358pt too wide) in paragraph at lines 393--395
+Overfull \hbox (7.46358pt too wide) in paragraph at lines 392--394
 \OT1/cmr/m/n/10 answer from it. This form of communication enables reliable, se
 cure and encrypted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--395
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 
-Overfull \hbox (50.7051pt too wide) in paragraph at lines 395--395
+Overfull \hbox (50.7051pt too wide) in paragraph at lines 394--394
 []\OT1/cmr/bx/n/10 Steps invloved in configuration of OPC UA Client Server Comm
 unication 
  []
@@ -921,138 +925,138 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 [12]
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 409.
 
 
-Package xcolor Warning: Incompatible color definition on input line 413.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
 
-Package xcolor Warning: Incompatible color definition on input line 413.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
 
-Package xcolor Warning: Incompatible color definition on input line 413.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+Package xcolor Warning: Incompatible color definition on input line 417.
 
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+Package xcolor Warning: Incompatible color definition on input line 417.
 
 
-Package xcolor Warning: Incompatible color definition on input line 418.
+Package xcolor Warning: Incompatible color definition on input line 417.
 
 
-Package xcolor Warning: Incompatible color definition on input line 420.
+Package xcolor Warning: Incompatible color definition on input line 419.
 
 
-Package xcolor Warning: Incompatible color definition on input line 420.
+Package xcolor Warning: Incompatible color definition on input line 419.
 
 
-Package xcolor Warning: Incompatible color definition on input line 420.
+Package xcolor Warning: Incompatible color definition on input line 419.
 
 
-Package xcolor Warning: Incompatible color definition on input line 427.
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 427.
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 427.
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 427.
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 427.
+Package xcolor Warning: Incompatible color definition on input line 426.
 
 
-Package xcolor Warning: Incompatible color definition on input line 444.
+Package xcolor Warning: Incompatible color definition on input line 443.
 
 
-Package xcolor Warning: Incompatible color definition on input line 444.
+Package xcolor Warning: Incompatible color definition on input line 443.
 
 
-Package xcolor Warning: Incompatible color definition on input line 444.
+Package xcolor Warning: Incompatible color definition on input line 443.
 
 
-Package xcolor Warning: Incompatible color definition on input line 444.
+Package xcolor Warning: Incompatible color definition on input line 443.
 
 
-Package xcolor Warning: Incompatible color definition on input line 444.
+Package xcolor Warning: Incompatible color definition on input line 443.
 
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 
-Package xcolor Warning: Incompatible color definition on input line 448.
+Package xcolor Warning: Incompatible color definition on input line 447.
 
 [13]
-Overfull \hbox (0.7969pt too wide) in paragraph at lines 464--466
+Overfull \hbox (0.7969pt too wide) in paragraph at lines 463--465
 \OT1/cmr/m/n/10 technologies to drive time-critical applications in industries.
  According to EXOR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 
  []
 
 
-Overfull \hbox (25.29546pt too wide) in paragraph at lines 466--466
+Overfull \hbox (25.29546pt too wide) in paragraph at lines 465--465
 []\OT1/cmr/bx/n/10 Steps invloved in configuration of OPC UA PubSub Communicati
 on 
  []
 
 [14]
-Overfull \hbox (1.80623pt too wide) in paragraph at lines 492--493
+Overfull \hbox (1.80623pt too wide) in paragraph at lines 491--492
 []\OT1/cmr/m/n/10 Secure communication without additional hardware directly in 
 the protocol 
  []
 
 
-Overfull \hbox (22.25072pt too wide) in paragraph at lines 495--496
+Overfull \hbox (22.25072pt too wide) in paragraph at lines 494--495
 []\OT1/cmr/m/n/10 Internationally standardized interfaces for easy machine inte
 gration (companion
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 503--505
+Underfull \hbox (badness 10000) in paragraph at lines 502--504
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--508
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--511
+Underfull \hbox (badness 10000) in paragraph at lines 508--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--514
+Underfull \hbox (badness 10000) in paragraph at lines 511--513
 
  []
 
@@ -1061,38 +1065,38 @@ Instrutable}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.554 \end{document}
+l.553 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.OPC-UA}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.554 \end{document}
+l.553 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.OPC-UA}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.554 \end{document}
+l.553 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.OPC-UA}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.554 \end{document}
+l.553 \end{document}
                     ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
  (BalancingBot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 553.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
 Package rerunfilecheck Info: File `BalancingBot.out' has not changed.
 (rerunfilecheck)             Checksum: 34D4EFA2C3DD21D82852D8B1B3E5A91B;2043.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 553.
  ) 
 Here is how much of TeX's memory you used:
  20203 strings out of 482728
@@ -1109,7 +1113,7 @@ cmbx12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></home/tk_conda/.miktex/texmfs/install/fonts/type1/public/amsfonts
 /cm/cmtt9.pfb>
-Output written on BalancingBot.pdf (17 pages, 2705518 bytes).
+Output written on BalancingBot.pdf (17 pages, 2705515 bytes).
 PDF statistics:
  371 PDF objects out of 1000 (max. 8388607)
  121 named destinations out of 1000 (max. 500000)
